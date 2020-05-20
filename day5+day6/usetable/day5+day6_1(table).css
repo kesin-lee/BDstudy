@@ -1,0 +1,25 @@
+body {
+    border: #cccccc 2px solid;
+    padding-left: 1em;
+}
+
+span {
+    font-weight: bold;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+p {
+    line-height: 0.5em;
+    font-size: 18px;
+}
+
+.distance {
+    margin-top: 30px;
+}

@@ -1,0 +1,14 @@
+.Box {
+    width: 70%;
+    margin:0 auto;
+    border:1px #cccccc solid;
+}
+.top, .box {
+    padding-left: 30px;
+}
+p {
+    display: inline;
+}
+.ability, .eduprogram {
+    line-height: 1.5em;
+}
