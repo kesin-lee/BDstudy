@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+.left {
+    width: 30%;
+    margin:0;
+    border: 1px solid red;
+}
+
+.middle {
+    width: 70%;
+    border: 1px solid yellow;
+    position: absolute;
+    left:30%;
+    top:0;
+}

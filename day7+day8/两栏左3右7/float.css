@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+.content {
+    width:100%;
+    border: 1px solid red;
+}
+
+.left {
+    width: 30%;
+    float: left;
+    border:1px solid greenyellow;
+}
+.middle {
+    width: 70%;
+    float: right;
+    border:1px solid greenyellow;
+}

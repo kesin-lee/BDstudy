@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+}
+.left {
+    width: 30%;
+    border: 1px solid red;
+}
+
+.middle {
+    width: 70%;
+    border: 1px solid yellow;
+}
