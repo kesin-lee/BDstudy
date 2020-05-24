@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+.body, .header {
+    /*width: 100%;*/
+    margin: 0;
+}
+.helloworld {
+    background-image: url("https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=4029187208,146783494&fm=26&gp=0.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    padding-bottom:150px ;
+}
+
+.helloworld p, .helloworld div {
+    text-align: center;
+    width: 62.5%;
+    margin: 0 auto;
+}
+
+#hello {
+    font-size: 40px;
+    color: white;
+    padding: 100px 0 0 0;
+}
+
+#hellointro {
+    font-size: 12px;
+    color: lightgrey;
+    padding: 30px 65px;
+}
+
+.create {
+    border: rgba(204, 204, 204, 0.5) 1px solid;
+    margin-bottom: 150px;
+}
+
+#create {
+    color: white;
+    font-size: 11px;
+    padding: 30px 0 0 0;
+}
+
+#free {
+    color: #ccc;
+    font-size: 7px;
+}
+::placeholder {
+    color: white;}
+#myemail {
+    background-color: rgba(1, 1, 1, 0); /*设置背景透明，字不透明*/
+    color: white;
+    line-height: 5em;
+    text-indent: 2em;
+    font-size: 5px;
+    width: 30%;
+    margin: 30px 0 30px 10px;
+    border: 1px rgba(204, 204, 204, 0.4) solid;
+}
+
+#mypass {
+    background-color: rgba(1, 1, 1, 0); /*设置背景透明，字不透明*/
+    line-height: 5em;
+    text-indent: 2em;
+    font-size: 5px;
+    width: 30%;
+    margin: 30px 0 30px 20px;
+    border: 1px rgba(204, 204, 204, 0.4) solid;
+}
+
+#mysign {
+    height: 28.8px;
+    line-height: 5em;
+    text-align: center;
+    font-size: 5px;
+    width: 13%;
+    margin: 30px auto 30px 20px;
+}

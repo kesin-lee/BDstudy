@@ -1,0 +1,17 @@
+
+.content {
+    display: flex;
+}
+
+.left {
+    width: 300px;
+    background-color: red;
+}
+.middle {
+    width: calc(100% - 600px);
+    background-color: yellow;
+}
+.right {
+    width: 300px;
+    background-color: #5265EC;
+}
