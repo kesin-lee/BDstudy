@@ -1,15 +1,16 @@
 * {
     box-sizing: border-box;
-}
-.body, .header {
-    /*width: 100%;*/
     margin: 0;
+    padding: 0;
+    font-family: microsoft YaHei, sans-serif;
 }
+
 .helloworld {
     background-image: url("https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=4029187208,146783494&fm=26&gp=0.jpg");
     background-size: 100% 100%;
     width: 100%;
-    padding-bottom:150px ;
+    font-weight: lighter;
+    padding-bottom: 150px;
 }
 
 .helloworld p, .helloworld div {
@@ -42,11 +43,15 @@
 }
 
 #free {
+    margin-top: 8px;
     color: #ccc;
     font-size: 7px;
 }
+
 ::placeholder {
-    color: white;}
+    color: white;
+}
+
 #myemail {
     background-color: rgba(1, 1, 1, 0); /*设置背景透明，字不透明*/
     color: white;
@@ -75,4 +80,78 @@
     font-size: 5px;
     width: 13%;
     margin: 30px auto 30px 20px;
+}
+
+.page1 {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#page1-title1 {
+    text-align: center;
+    font-size: 8px;
+    padding: 50px 0 0 0;
+}
+
+#page1-title2 {
+    text-align: center;
+    font-size: 21px;
+    width: 53%;
+    margin: 0 auto;
+    padding: 15px 0 40px 0;
+}
+
+.page1-content {
+    width: 100%;
+    overflow: hidden;
+}
+
+.page1-cont1 {
+    width: 45%;
+    float: left;
+}
+
+.page1-cont1 img {
+    float: left;
+    width: 50px;
+    height: 40px;
+    margin: 10px 5px 40px 80px;
+}
+
+.page1-cont1-right {
+    overflow: hidden;
+    margin-top: 12px;
+}
+
+.page1-cont-cont {
+    width: 95%;
+    font-size: 10px;
+    padding-top: 8px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+#footcenter {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.foot {
+    padding-top: 50px;
+}
+.foot-title {
+    color: white;
+    font-size: 12px;
+    padding-bottom: 15px;
+    letter-spacing: 0.2em;
+    word-spacing: 0.3em;
+}
+.foot-cont {
+    color:rgba(204,204,204,0.2);
+    font-size: 10px;
+    padding: 6px 0;
 }
