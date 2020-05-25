@@ -1,0 +1,30 @@
+.content {
+    box-sizing: border-box;
+    position: relative;
+    border: 1px black solid;
+    min-height: 200px;
+}
+
+
+.left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: red;
+    width: 300px;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: blue;
+    width: 300px;
+}
+
+.middle {
+    position: absolute;
+    left: 300px;
+    width:calc(100% - 600px);
+    background-color: greenyellow;
+}

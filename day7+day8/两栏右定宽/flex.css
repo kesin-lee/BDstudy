@@ -1,0 +1,13 @@
+.content {
+    display: flex;
+}
+
+.left {
+    background-color: red;
+    width: calc(100% - 300px);
+}
+
+.middle {
+    background-color: #5265EC;
+    width: 300px;
+}

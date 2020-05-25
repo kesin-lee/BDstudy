@@ -1,0 +1,11 @@
+.left {
+    float: left;
+    width: calc(100% - 300px);
+    background-color: red;
+}
+
+.middle {
+    float: right;
+    width: 300px;
+    background-color: yellow;
+}

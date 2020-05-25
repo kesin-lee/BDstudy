@@ -1,0 +1,16 @@
+.content {
+    position: relative;
+}
+
+.left {
+    position: absolute;
+    width: calc(100% - 300px);
+    /*left:0;*/
+    background-color: red;
+}
+.middle {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    background-color: yellow;
+}

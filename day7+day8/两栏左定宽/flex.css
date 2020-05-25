@@ -1,0 +1,14 @@
+.content {
+    display: flex;
+}
+
+.left {
+    background-color: red;
+    width: 300px;
+
+}
+
+.middle {
+    background-color: yellow;
+    width: calc(100% - 300px);
+}
