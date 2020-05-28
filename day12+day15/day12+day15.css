@@ -1,0 +1,320 @@
+html, body {
+    box-sizing: content-box;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    margin: 0;
+    /*overflow: auto;*/
+}
+
+.col-icon {
+    background-color: black;
+    width: 100px;
+    height: auto;
+}
+
+.col-icon-top {
+    width: 100px;
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-icon-top-each {
+    width: 60px;
+    border: black 1px solid;
+    border-radius: 30px;
+    margin: 20px 0 0 20px;
+}
+
+.col-icon-top-each:last-child {
+    opacity: .7;
+}
+
+.col-icon-bottom {
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 80px;
+    margin-left: 10px;
+}
+
+.col-icon-bottom-each {
+    width: 15px;
+    height: 15px;
+}
+
+.col-main {
+    width: 250px;
+    background-color: #0a2842;
+}
+
+.col-main-part {
+    width: 200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-bottom: 1px grey solid;
+}
+
+.col-main-part3 {
+    width: 200px;
+    margin: 0 auto;
+    border: none;
+}
+
+.col-main-menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 200px;
+}
+
+.col-main-menu-cont {
+    height: 1em;
+    font-size: 12px;
+    margin: 0;
+    color: #504e4e;
+}
+
+.col-main-menu img {
+    width: 12px;
+    height: 12px;
+}
+
+.name {
+    color: #aaa3a3;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    height: 16px;
+}
+
+.col-main-menu-part {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.name-num:last-child {
+    margin-top: 0
+}
+
+.name1 {
+    margin-top: 0;
+    color: #aaa3a3;
+    font-size: 12px;
+    margin-bottom: 0;
+    height: 16px;
+}
+
+.name-num {
+    font-size: 12px;
+    width: 25px;
+    text-align: center;
+    color: white;
+    background-color: #5e9ad7;
+    border-bottom: 1px #5e9ad7 solid;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    height: 16px;
+}
+
+.name-symbol {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    border: 1px red solid;
+    border-radius: 8.5px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.col-main-part-withphoto {
+    display: flex;
+    margin: 10px 0 0 5px;
+}
+
+.col-main-part-withphoto p {
+    margin: 0
+}
+
+.col-main-menu-photo {
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+}
+
+.col-main-botoom {
+    width: 200px;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 20px;
+    left: 125px;
+}
+
+.col-main-botom-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-main-bottom-titlename {
+    color: white;
+    font-size: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.col-main-bottom-proportion {
+    /*overflow: hidden;*/
+    position: relative;
+}
+
+.col-main-proportion {
+    display: inline-block;
+    width: 48px;
+    height: 3px;
+    background-color: mediumpurple;
+    border: 1px solid mediumpurple;
+    border-radius: 2.5px;
+    position: absolute;
+    bottom: 5px;
+    z-index: 1;
+}
+
+.col-main-allproportion {
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    width: 198px;
+    height: 3px;
+    background-color: rgba(108, 108, 104, 1);
+    border: 1px solid rgba(108, 108, 104, 1);
+    border-radius: 0 2.5px;
+}
+
+
+.col-cont {
+    width: calc(100% - 350px);
+    height: 100%;
+}
+
+.col-cont-title {
+    width: auto;
+    margin: 15px 25px 15px 35px;
+    /*padding-bottom: 25px;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-cont-title-messages {
+    margin: auto 0;
+    padding: 0;
+    font-size: 22px;
+    height: 1em;
+}
+
+.col-cont-title-selfmessage {
+    display: flex;
+    justify-content: right;
+}
+
+.col-cont-title-selfphoto {
+    width: 50px;
+    height: 50px;
+    border: 1px white solid;
+    border-radius: 26px;
+    margin: auto 0;
+}
+
+.col-cont-title-selfmessage {
+    margin: auto 0;
+}
+
+.col-cont-title-selfname-usermessage {
+    margin: auto 15px;
+}
+
+.col-cont-title-username {
+    width: 85px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #40ade2;
+    margin: 0;
+    padding: 0;
+}
+
+.col-cont-title-userlevel {
+    width: 85px;
+    font-size: 13px;
+    color: #a8a6a6;
+    padding: 0;
+    margin: 0;
+}
+
+.col-cont-title-more {
+    width: 10px;
+    height: 10px;
+    padding: 0 10px 0 20px;
+    margin: auto 0;
+}
+
+.col-cont-menu {
+    border-top:1px solid #ccc ;
+    border-bottom:1px solid #ccc ;
+}
+.col-cont-menu-search {
+    width: 400px;
+    border-right:1px solid #ccc ;
+}
+.col-cont-menu-label {
+    width: 340px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+}
+.col-cont-menu-searchtext {
+    width: 70%;
+    font-size: 8px;
+    height: 3em;
+    text-indent: 1em;
+    border:1px solid #ccc;
+    border-right: none;
+}
+::placeholder {
+    color: dimgrey;
+}
+.col-cont-menu-btn {
+    width: 28px;
+    height: 28px;
+    border: 1px solid #ccc;
+    border-left: none ;
+    background-image: url("icon/icon-twitter.png");
+    background-size: cover;
+}
+
+.col-cont-menu-contactinfo {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
