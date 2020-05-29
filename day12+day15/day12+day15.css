@@ -1,10 +1,8 @@
 html, body {
     box-sizing: content-box;
     width: 100%;
-    height: 1000px;
     display: flex;
     margin: 0;
-    /*overflow: auto;*/
 }
 
 .col-icon {
@@ -131,7 +129,7 @@ html, body {
     height: 16px;
     background-color: red;
     border: 1px red solid;
-    border-radius: 8.5px;
+    border-radius: 9px;
     margin-top: 10px;
     margin-bottom: 0;
 }
@@ -223,6 +221,9 @@ html, body {
 .col-cont-title-selfmessage {
     display: flex;
     justify-content: right;
+    position: fixed;
+    right: 0;
+    top: 0;
 }
 
 .col-cont-title-selfphoto {
@@ -266,42 +267,221 @@ html, body {
 }
 
 .col-cont-menu {
-    border-top:1px solid #ccc ;
-    border-bottom:1px solid #ccc ;
+    border-top: 1px solid #ccc;
+    display: flex;
 }
+
 .col-cont-menu-search {
-    width: 400px;
-    border-right:1px solid #ccc ;
+    width: 320px;
+    padding: 0;
+    border-right: 1px solid #ccc;
 }
+
 .col-cont-menu-label {
-    width: 340px;
+    width: 280px;
     margin: 0 auto;
     padding: 15px 0;
     display: flex;
+    justify-content: center;
 }
+
 .col-cont-menu-searchtext {
-    width: 70%;
+    width: 85%;
     font-size: 8px;
     height: 3em;
     text-indent: 1em;
-    border:1px solid #ccc;
+    border: 1px solid #ccc;
     border-right: none;
 }
+
 ::placeholder {
     color: dimgrey;
 }
+
 .col-cont-menu-btn {
     width: 28px;
     height: 28px;
     border: 1px solid #ccc;
-    border-left: none ;
+    border-left: none;
     background-image: url("icon/icon-twitter.png");
     background-size: cover;
 }
 
-.col-cont-menu-contactinfo {
-
+.col-cont-contact {
+    width: 320px;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
 }
+
+.col-cont-cont-contactperson {
+    box-sizing: border-box;
+    padding: 15px 20px 15px 20px;
+    overflow: hidden;
+}
+
+.col-cont-cont-contactperson:last-child {
+    border-bottom: 1px solid #ccc
+}
+
+#col-cont-cont-contactperson1 {
+    box-sizing: border-box;
+    padding: 15px 20px 15px 17px;
+    overflow: hidden;
+    border-left: 3px solid lightskyblue;
+}
+
+.col-cont-cont-contactperson-personinfo {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.contactperson-nameinfo {
+    display: flex;
+}
+
+.contactperson-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: auto 0;
+}
+
+.contactperson-detailnameinfo {
+    margin: auto 0 auto 20px;
+}
+
+.contact-selfstate {
+    display: flex;
+}
+
+.bluecircle {
+    background-color: deepskyblue;
+    margin: 5px 3px 0 0;
+    width: 4px;
+    height: 4px;
+    border: 1px solid deepskyblue;
+    border-radius: 6px;
+}
+
+.contactperson-name {
+    font-size: 12px;
+    font-weight: bold;
+    color: deepskyblue;
+    margin: auto 0;
+    height: 1em;
+}
+
+.contactperson-contcactway {
+    font-size: 10px;
+    color: #ccc;
+    margin: 0;
+    height: 1em;
+    padding: 6px 0 0 0;
+}
+
+.contactperson-lasttime {
+    font-size: 10px;
+    margin: auto 0;
+}
+
+.contactperson-selfintroduction {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactperson-selfintrotext {
+    font-size: 10px;
+    line-height: 1.5em;
+    width: 100%;
+    margin: auto 0;
+}
+
+.contactperson-selfintrotext #contactperson-selfintrotext-1 {
+    font-size: 10px;
+    line-height: 1.5em;
+    width: calc(100% - 30px);
+    margin: auto 0;
+}
+
+.contactperson-infonum {
+    color: white;
+    font-size: 10px;
+    background-color: cornflowerblue;
+    text-align: center;
+    align-items: center;
+    border: 1px solid cornflowerblue;
+    border-radius: 15px;
+    width: 14px;
+    height: 14px;
+    padding: 0;
+    margin: auto 0 auto 10px;
+}
+
+/*以下是右侧栏，包括：聊天对象+6个图标（加好友、分享文件、垃圾箱等） 以及对话框聊天信息*/
+.col-cont-right {
+    width: 100%;
+}
+
+.col-cont-right-menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.col-cont-menu-contactpersonname {
+    display: flex;
+}
+
+.col-cont-greencircle {
+    margin: auto 0 auto 5px;
+    width: 4px;
+    height: 4px;
+    background-color: greenyellow;
+    border: 2px solid greenyellow;
+    border-radius: 4px;
+}
+
+.col-cont-menu-contactinfo {
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.col-cont-menu-allbtn {
+    width: auto;
+    padding: 0;
+    margin: 0 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-cont-menu-messagepage {
+    margin: auto 10px auto 40px;
+    font-size: 12px;
+}
+
+#col-cont-menu-allbtn-iconrubbish, #col-cont-menu-allbtn-iconright {
+    border-right: 1px solid #ccc;
+    border-radius: 0 5px 5px 0;
+}
+
+#col-cont-menu-allbtn-iconaddfriend, #col-cont-menu-allbtn-iconleft {
+    border-radius: 5px 0 0 5px;
+}
+
+.col-cont-menu-allbtn-icon {
+    width: 20px;
+    height: 20px;
+    margin: auto 0;
+    padding: 5px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+
 
 
 
