@@ -481,18 +481,97 @@ html, body {
     border-left: 1px solid #ccc;
 }
 
+.chatHistoryperson {
+    display: flex;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.chatHistoryperson .contactperson-image {
+    margin: 0;
+}
+.contactperson-selfinfo {
+    margin-left: 20px;
+}
+.contactperson-selfInfo {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.contactperson-historyMessage {
+    margin: 0;
+    font-size: 11px;
+    padding-top: 3px;
+}
+.chatHistory {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
 
+.chatTime {
+    font-size: 11px;
+    color: #ccc;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: absolute;
+    bottom: -7.6px;
+    left: 50%;
+    background-color: white;
+}
+.chatNow {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.image1 {
+    width: 150px;
+    height: 100px;
+    border-radius:5px ;
+    margin-right: 12px;
+}
+#image1 {
+    background-color: rgba(20,20,20,0.5) ;
+    background-size: 280px 220px;
+}
+.chatTime1 {
+    font-size: 11px;
+    color: dodgerblue;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: absolute;
+    bottom: -7.6px;
+    left: 50%;
+    background-color: white;
+}
+.newMessage {
+    margin: 20px auto;
+    width: 90%;
+    display: flex;
+    border: 1px solid #ccc;
+}
 
+.newMessageBtn {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #cccccc;
+    background-color: white;border: hidden;
+}
+.newMessageText {
+    width: 90%;
+    height: 40px;
+    font-size: 11px;
+    text-indent: 2em;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-left:1px solid #ccc ;
+}
 
-
-
-
-
-
-
-
-
-
+.contactperson-selfinfo {
+    position: relative;
+}
 
 
 
